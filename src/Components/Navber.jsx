@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom'
 const Navber = () => {
     const link = <>
         <li>
-            <Link >Home</Link>
+            <Link to='/'>Home</Link>
         </li>
         <li >
-            <Link >About Us</Link>
+            <Link to='about_us'>About Us</Link>
         </li>
         <li>
-            <Link>Contact Us</Link>
+            <Link to='contact_us'>Contact Us</Link>
         </li>
     </>
   return (

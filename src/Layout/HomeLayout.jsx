@@ -1,10 +1,13 @@
+
 import BrandPreviwe from "../Components/BrandPreviwe";
 import Hero from "../Components/Hero";
 import Navber from "../Components/Navber";
+import PopulerProduct from "../Components/PopulerProduct";
 
 
 
 const HomeLayout = () => {
+   
     return (
         <div className="rancho-regular">
             <header className="w-full">
@@ -16,12 +19,14 @@ const HomeLayout = () => {
                 <section>
                     <Hero></Hero>
                 </section>
-                <section>
+                <section className="bg-[rgb(236,234,227)]">
                     <BrandPreviwe></BrandPreviwe>
                 </section>
             </header>
             <main>
-               
+               <section>
+                    <PopulerProduct></PopulerProduct>
+               </section>
             </main>
             <footer>
 

@@ -9,9 +9,9 @@ const BrandPreviwe = () => {
         .then(res=>res.json())
         .then(data=>setPreviweData(data))
     },[])
-    console.log(previweData);
+    
     return (
-        <div className="flex justify-between gap-4 bg-[rgb(236, mx-auto py-8 w-10/12 text-center 227)] 234,">
+        <div className="flex justify-between gap-4 mx-auto py-8 w-10/12 text-center">
             {
                 previweData.map(preview=><BrandPreviweCard key={preview.id} data={preview}></BrandPreviweCard>)
             }

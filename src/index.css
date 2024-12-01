@@ -16,3 +16,17 @@
 .bg-hero{
     background-image: url('./img/3.png');
 }
+.bg-error{
+    background-image: url('./img/404.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-add-product{
+    background-image: url('./img/11.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.bg-populer{
+    background: url('./img/4.png') left top no-repeat;
+    background: url('./img/5.png') right bottom no-repeat;
+}
